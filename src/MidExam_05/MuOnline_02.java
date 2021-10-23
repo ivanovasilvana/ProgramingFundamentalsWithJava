@@ -14,6 +14,7 @@ public class MuOnline_02 {
         List<String> input = Arrays
                 .stream(scanner.nextLine().split("\\|"))
                 .collect(Collectors.toList());
+        boolean isSuccess = true;
         for (int i = 0; i < input.size(); i++) {
             countOfRoom++;
             String room = input.get(i);
@@ -46,13 +47,13 @@ public class MuOnline_02 {
                 } else {
                     System.out.printf("You died! Killed by %s.%n", command);
                     System.out.printf("Best room: %d%n", countOfRoom);
-                    countOfRoom--;
+                    isSuccess = false;
                     break;
 
                 }
             }
         }
-        if (countOfRoom == input.size()) {
+        if (countOfRoom == input.size() && isSuccess) {
             System.out.println("You've made it!");
             System.out.printf("Bitcoins: %d%n", initialBitcoins);
             System.out.printf("Health: %d%n", initialHealth);
