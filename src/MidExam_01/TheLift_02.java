@@ -11,7 +11,6 @@ public class TheLift_02 {
                 .stream(scanner.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)
                 .toArray();
-        int newPeople = 0;
         boolean emptySpots = false;
         for (int i = 0; i < lift.length; i++) {
             if (lift[i] < 4) {
