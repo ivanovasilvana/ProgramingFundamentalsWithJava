@@ -1,4 +1,4 @@
-package MidExam_06;
+package MidExam.MidExam_06;
 
 import java.util.*;
 import java.util.stream.Collectors;

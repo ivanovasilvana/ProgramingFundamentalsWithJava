@@ -1,4 +1,4 @@
-package MidExam_01;
+package MidExam.MidExam_01;
 
 import java.util.Scanner;
 

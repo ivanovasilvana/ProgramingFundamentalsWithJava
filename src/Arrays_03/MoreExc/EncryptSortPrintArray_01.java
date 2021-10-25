@@ -3,7 +3,7 @@ package Arrays_03.MoreExc;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class EncryptSortАndPrintArray_01 {
+public class EncryptSortPrintArray_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
