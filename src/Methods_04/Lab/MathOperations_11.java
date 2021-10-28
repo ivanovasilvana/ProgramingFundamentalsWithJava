@@ -16,7 +16,7 @@ public class MathOperations_11 {
         double result = 0.0;
         switch (operator) {
             case "/":
-                result = first / second;
+                result = first * 1.0 / second;
                 break;
             case "*":
                 result = first * second;
