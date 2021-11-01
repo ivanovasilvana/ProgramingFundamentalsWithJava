@@ -63,5 +63,5 @@ public class Main {
             System.out.printf("Trucks have average horsepower of: %.2f.%n", sumTrucks / countTrucks);
         }
     }
-    
+
 }
