@@ -1,6 +1,4 @@
-package MapsLambdaAndStreamAPI.Lab;
-
-import com.sun.source.tree.Tree;
+package MapsLambdaAndStreamAPI_07.Lab;
 
 import java.util.*;
 import java.util.stream.Collectors;

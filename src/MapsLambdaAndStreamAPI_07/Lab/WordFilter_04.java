@@ -1,4 +1,4 @@
-package MapsLambdaAndStreamAPI.Lab;
+package MapsLambdaAndStreamAPI_07.Lab;
 
 import java.util.Arrays;
 import java.util.Scanner;

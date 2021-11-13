@@ -1,6 +1,5 @@
-package MapsLambdaAndStreamAPI.Exc;
+package MapsLambdaAndStreamAPI_07.Exc;
 
-import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
