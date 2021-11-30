@@ -13,9 +13,9 @@ public class TheImitationGame_01 {
             String command = input.split("\\|")[0];
 
             if (command.equals("Move")) {
-                int countOfLetters = Integer.parseInt(input.split("\\|")[1]);
+                int numberOfLetters = Integer.parseInt(input.split("\\|")[1]);
 
-                for (int i = 0; i < countOfLetters; i++) {
+                for (int i = 0; i < numberOfLetters; i++) {
                     char currentLetter = decryptedMessage.charAt(0);
                     decryptedMessage.deleteCharAt(0);
                     decryptedMessage.append(currentLetter);
